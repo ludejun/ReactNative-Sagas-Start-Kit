@@ -1,13 +1,13 @@
 ## ReactNative Sagas Start Kit
-React-Native + Redux + Redux-Saga + NativeBase
+React-Native + Redux + Redux-Saga + NativeBase + React Navigation
 
 主要是Home页fetch list做了使用saga模拟服务器请求。
 首先在configureStore.js中加入sagas中间件，注册store.runSaga
 然后在setup.js中store.runSaga(rootSaga)，rootSaga为注册的所有saga，这样saga就能开始watch，不然saga这步会被省略，直接action->reduce。
 
-Base on Native Starter Kit. 原仓库含有大量typescript和eslint错误，尽量做了些es6改写。
+Base on Native Starter Kit. 原仓库含有大量typescript和eslint错误，尽量做了些es6改写。并去除了CodePush
 
-
+-------------------------------------------------------
 
 
 
